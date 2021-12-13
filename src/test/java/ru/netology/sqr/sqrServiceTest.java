@@ -8,39 +8,39 @@ class sqrServiceTest {
 
     @Test
     void shouldCountSquare() {
-        sqrService SQRService = new sqrService();
+        sqrService sqrService = new sqrService();
         int firstBorder = 200;
         int lastBorder = 300;
 
 
         int expected = 3;
-        int actual = SQRService.square(firstBorder, lastBorder);
+        int actual = sqrService.square(firstBorder, lastBorder);
 
         assertEquals(expected, actual);
     }
 
     @Test
     void shouldCountSquareFromZero() {
-        sqrService SQRService = new sqrService();
+        sqrService sqrService = new sqrService();
         int firstBorder = 0;
         int lastBorder = 100;
 
 
         int expected = 1;
-        int actual = SQRService.square(firstBorder, lastBorder);
+        int actual = sqrService.square(firstBorder, lastBorder);
 
         assertEquals(expected, actual);
     }
 
     @Test
     void shouldCountSquareToThousands() {
-        sqrService SQRService = new sqrService();
+        sqrService sqrService = new sqrService();
         int firstBorder = 0;
         int lastBorder = 10000;
 
 
         int expected = 90;
-        int actual = SQRService.square(firstBorder, lastBorder);
+        int actual = sqrService.square(firstBorder, lastBorder);
 
         assertEquals(expected, actual);
     }
