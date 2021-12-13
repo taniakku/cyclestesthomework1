@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SQRServiceTest {
+class sqrServiceTest {
 
     @Test
     void shouldCountSquare() {
-        SQRService SQRService = new SQRService();
+        sqrService SQRService = new sqrService();
         int firstBorder = 200;
         int lastBorder = 300;
 
@@ -21,7 +21,7 @@ class SQRServiceTest {
 
     @Test
     void shouldCountSquareFromZero() {
-        SQRService SQRService = new SQRService();
+        sqrService SQRService = new sqrService();
         int firstBorder = 0;
         int lastBorder = 100;
 
@@ -34,7 +34,7 @@ class SQRServiceTest {
 
     @Test
     void shouldCountSquareToThousands() {
-        SQRService SQRService = new SQRService();
+        sqrService SQRService = new sqrService();
         int firstBorder = 0;
         int lastBorder = 10000;
 

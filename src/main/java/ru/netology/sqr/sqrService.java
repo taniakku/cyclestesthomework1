@@ -1,6 +1,6 @@
 package ru.netology.sqr;
 
-public class SQRService {
+public class sqrService {
     public int square(int firstBorder, int lastBorder) {
 
         int runs = 0;
