@@ -9,6 +9,7 @@ class SQRServiceTest {
     @Test
     void shouldCountSquare() {
         SQRService sqrService = new SQRService();
+
         int firstBorder = 200;
         int lastBorder = 300;
 
@@ -21,7 +22,8 @@ class SQRServiceTest {
 
     @Test
     void shouldCountSquareFromZero() {
-        SQRService sqrService = new SQRService();
+        SQRService sqrService = new sqrService();
+
         int firstBorder = 0;
         int lastBorder = 100;
 
@@ -35,6 +37,7 @@ class SQRServiceTest {
     @Test
     void shouldCountSquareToThousands() {
         SQRService sqrService = new SQRService();
+
         int firstBorder = 0;
         int lastBorder = 10000;
 
